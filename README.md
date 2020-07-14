@@ -1,11 +1,13 @@
 # From Zero to Python
-![](https://img.shields.io/badge/From 0 To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB) ![](https://img.shields.io/badge/-Work In Progress-yellow)
+![https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB) 
+![https://img.shields.io/badge/-Work%20In%20Progress-yellow](https://img.shields.io/badge/-Work%20In%20Progress-yellow)
 
 A [python](https://www.python.org/) tutorial for beginners.
 This tutorial is designed by Python 3.x (Python 2 have reached end of life, "EOL", on 1 Jan 2020).
 
 ## Python
-![Python](https://www.python.org/static/img/python-logo@2x.png)
+![Python](https://www.python.org/static/img/python-logo@2x.png) 
+
 Python is an interpreted, high-level, general-purpose programming language.
 [Learn more](<https://www.wikiwand.com/en/Python_(programming_language)>)
 
