@@ -1,27 +1,31 @@
 # Installation & Setup
-Install python and setup environment variable.
+![https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB) 
+
+![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
+![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
+
+Install Python and setup environment variable.
 
 
 
 ## Installation
-### 0. To check if have python installed
+### 0. To check if have Python installed
 Open terminal and enter `python -V`. 
 
-If has python installed, it will show the version. e.g.:
+If has Python installed, it will show the version. e.g.:
 
 ```
 > python -V
 Python 3.8.2
-
 ```
 
-If the output like that and the version is 3.x, you can jump to the next chapter.
+If the output like that (`Python 3.8.2`) and the version is 3.x, you can jump to the next chapter.
 
 Otherwise, follow the instructions below.
 
 
 
-### 1. Install python
+### 1. Install Python
 > Windows
 
 Open the link: https://www.python.org/downloads/windows/
@@ -30,7 +34,7 @@ Find a version, and download a **executable installer**.
 
 (x86 for the 32-bit machine; x86-64 for the 64-bit machine)
 
-Then, just double click to install it.
+Then, just double-click to install it.
 
 **! Don't forget to tick the "Add Python to PATH".**
 
@@ -57,7 +61,7 @@ $ ./configure
 
 2.Package manager
 
-Using your distribution's package manager. e.g. install python 3.8:
+Using your distribution's package manager. e.g. install Python 3.8:
 
 Ubuntu:
 
@@ -100,7 +104,7 @@ If it is not working, follow the last step below.
 > path=%path%;LocationOfPythonInstalled
 ```
 
-"LocationOfPythonInstalled" is the location of python installed.
+"LocationOfPythonInstalled" is the location of Python installed.
 
 
 *OR*
@@ -114,7 +118,7 @@ Click "Advanced system settings" -> "Environment Variables...".
 
 Under the "System variables", find and double click "Path".
 
-At end of "Variable value", add the path of python (Use **;** to separate with others. e.g. ``path1;path2;path3;pythonPath``).
+At end of "Variable value", add the path of Python (Use **;** to separate with others. e.g. ``path1;path2;path3;pythonPath``).
 
 
 
@@ -124,5 +128,5 @@ At end of "Variable value", add the path of python (Use **;** to separate with o
 $ export PATH="$PATH:/usr/local/bin/python" 
 ```
 
-"/usr/local/bin/python" is the location of python installed.
+"/usr/local/bin/python" is the location of Python installed.
 

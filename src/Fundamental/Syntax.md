@@ -1,4 +1,9 @@
 # Syntax
+![https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB) 
+
+![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
+![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
+
 There are some basic syntax for Python.
 
 
@@ -6,7 +11,7 @@ There are some basic syntax for Python.
 ## Keywords
 We can **not** using keywords as variable name, method name and identifier.
 
-Show all keywords of current python version in command line by:
+Show all keywords of current Python version in command line by:
 
 ```python
 $ python
@@ -24,7 +29,12 @@ It will show some keywords, for example:
  'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 ```
 
-Also, quit by `>>> quit()`.
+#### How to quit?
+Just enter:
+
+```
+>>> quit()
+```
 
 
 
@@ -87,7 +97,7 @@ if 5 > 0:
 ```
 
 
-Indentations in one code blocks should be same. Otherwise, it will produce a error `IndentationError`.
+Indentations in one code blocks should be same. Otherwise, it will produce an error `IndentationError`.
 
 
 
