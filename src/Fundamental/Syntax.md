@@ -4,9 +4,9 @@ There are some basic syntax for Python.
 
 
 ## Keywords
-We can not using keywords as variable name, method name and as identifier.
+We can **not** using keywords as variable name, method name and identifier.
 
-Show all keywords of current python version by:
+Show all keywords of current python version in command line by:
 
 ```python
 $ python
@@ -24,10 +24,21 @@ It will show some keywords, for example:
  'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
 ```
 
+Also, quit by `>>> quit()`.
+
 
 
 ## Comments
 Comments is using for purpose of in-code documentation and will not be executed.
+
+There are two types of comment:
+
+1. Single-line comment.
+2. Multi-lines comment.
+
+
+
+### Single-line Comment
 
 Single-line comment start with `#` in Python.
 
@@ -43,7 +54,10 @@ Hello, world!
 ```
 
 
-Multi-lines comment is wraped by `'''` and `"""`.
+
+### Multi-line Comment
+
+Multi-lines comment is warped by `'''` and `"""`.
 
 ```python
 '''
@@ -62,7 +76,7 @@ Second line.
 
 
 # Indents
-The most distinctive feature of Python is the use of indentation to represent code blocks, without the use of braces `{ }`.
+The most distinctive feature of Python is the use of indentation to represent code blocks, without the use of braces `{}`.
 
 In general, it is `2 spaces`, `4 spaces` or a `tab`.
 
@@ -77,12 +91,12 @@ Indentations in one code blocks should be same. Otherwise, it will produce a err
 
 
 
-# Muti-line statement
+# Multi-line statement
 In general, one statement should be done in one line.
 
-But, if it is too long, we can use backslash `\` to implement a multi-line statment.
+But, if it is too long, we can use backslash `\` to implement a multi-line statement.
 
-e.g.:
+e.g.
 
 ```python
 theSentence = "first line." + \
@@ -91,9 +105,10 @@ theSentence = "first line." + \
 ```
 
 
-In `[]`, `{}`, `()`, we can write multi-line statment without `\`.
 
-e.g.:
+In `[]`, `{}`, `()`, we can write multi-line statement without `\`.
+
+e.g.
 
 ```python
 itemList = [itemOne, itemTwo, itemThree,
