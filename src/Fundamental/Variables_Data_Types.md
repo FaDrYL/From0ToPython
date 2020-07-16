@@ -4,9 +4,9 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/) 
 
-Variable is used to store data.
+**Variable** is used to store data.
 
-Data type is the type of variable.
+**Data Type** is the type of variable.
 
 
 
@@ -24,7 +24,7 @@ There are some rules for variables name:
   - \_variableName
   - variable2
   - variable3\_
-- Variables name are case-sensitive:
+- Variables name are **case-sensitive**:
   - `variableName` and `variablename` are different variables.
 
 
@@ -54,6 +54,7 @@ Equal sign `=` is used for value assignment.
 Such as:
 
 ```Python
+#  Name   |    Value
 item_name = "the item"   # string
 item_price = 9.95        # number (float)
 item_stock = 10          # number (int)
@@ -62,7 +63,7 @@ item_stock = 10          # number (int)
 
 #### Multi-values Assignment
 ##### 1 to Many
-Python allowed that assign one value to multiple variables:
+Python allowed that assign one value to multiple variables.
 
 All variables `var_one`, `var_two` and `var_three` are `0` in this case:
 
@@ -96,16 +97,16 @@ Run the code above will get the output:
 
 ## Data Types
 Python has some principal built-in data types:
-- Number
-- Boolean
-- String
-- Tuple
-- List
-- Set
-- Dictionary
+- [Number](#number)
+- [Boolean](#boolean)
+- [String](#string)
+- [Tuple](#tuple)
+- [List](#list)
+- [Set](#set)
+- [Dictionary](#dictionary)
 
 
-Immutable data: Number, Boolean, String, Tuple
+Immutable data: Number, Boolean, String, Tuple.
 
 Mutable data: List, Set, Dictionary.
 
@@ -171,7 +172,7 @@ String is wrapped by either `"` or `'`.
 #### Escape Character
 We need using escape character for some character which is not legal in a string.
 
-Escape character can be used as a backslash `\` and follow by the character.
+Escape character can be used as a backslash `\ ` and follow by the character.
 
 ```Python
 >>> a_string = "\"string\" with quotation mark."
@@ -199,11 +200,12 @@ Escape sequence table from [https://docs.python.org/3/reference/lexical_analysis
 
 
 #### String Slicing
-String is a array of unicode characters (In Python, a character is a string with the length of 1).
+String is an array of unicode characters (In Python, a character is a string with the length of 1).
 
-So, you can get a character by using square bracket `[]` with a index number after a string.
+So, you can get a character by using square bracket `[]` with an index number, after the string.
 
 Index is start with `0`.
+
 Also, negative number can represent an index from the end, last one is `-1`. 
 
 ```Python
@@ -221,12 +223,12 @@ first char is 't', last char is 'g'.
 
 
 ##### Slicing
-Using `[]` with start index (inclusive), end index (exclusive), and separeted by a colon `:` to get a part of string.
+Using `[]` with start index (inclusive), end index (exclusive), and separated by a colon `:` to get a part of string.
 
 ```Python
 a_string = "Hello, world!"
-first_word = a_string[0:5]  # or a_string[:5]
-remaining_part = a_string[5:]    # or a_string[:len(a_string)]
+first_word = a_string[0:5]          # or a_string[:5]
+remaining_part = a_string[5:]       # or a_string[:len(a_string)]
 print("length of a_string: " + len(a_string))
 print("first part: " + first_word)
 print("remaining part: " + left_part)
@@ -244,7 +246,7 @@ remaining part: , world!
 #### String Methods
 Some string built-in methods:
 
-Using them like `string.capitalize()`.
+Using them like `a_string.capitalize()`.
 
 Parameters with `=` can be ignored, like `string.endswith(".txt")` rather than `string.endswith(".txt", 0, len(str))`
 
@@ -343,10 +345,10 @@ Tuple with 1 item: `tuple_1 = (100, )`
 List is an important data type.
 
 We can change it after it is created.
-- **Changeable (mutable)**
+- Changeable (mutable)
 
 It can be accessed by an index.
-- **Ordered Collection**
+- Ordered Collection
 
 Items is wrapped by `[]` and separated by `,`.
 
@@ -419,6 +421,15 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 ```
 
 
+**Swap items**
+```Python
+>>> a_list = [0, 1, 2, 3]
+>>> a_list[0], a_list[2] = a_list[2], a_list[0]
+>>> print(a_list)
+[2, 1, 0, 3]
+```
+
+
 #### List Methods
 There are some built-in methods: 
 
@@ -458,10 +469,9 @@ Set can create with `{}` or `set(iterable)`. (Empty set must create as `set()`, 
 
 ### Dictionary
 Dictionary is **unordered collection**.
+Which means item cannot be accessed by an index. It is using the key instead.
 
-Item cannot be accessed by an index. It is using the key instead.
-
-Dictionary can create with `{}`, unordered collection of `key: value`.
+Dictionary can create with `{}`, and is unordered collection of `key: value`.
 
 **Key** is an identifier of an item. It should be unique and is immutable.
 
@@ -487,23 +497,24 @@ dict_values(['the_item', 8.5, 10, "just an item"])
 
 
 ### Data Type Conversion
-convert `x` to different type:
+Convert `x` to different type:
+
 | Function | Description |
 |:---------|:------------|
-| int(x) | Converts x to integer |
-| float(x) | Converts x to float |
+| int(x) | Converts *x* to integer |
+| float(x) | Converts *x* to float |
 | complex(real, imag) | Create a complex number |
-| str(x) | Converts x to string |
-| repr(x) | Converts x to printable representation string |
-| tuple(s) | Converts a sequence *s* to tuple |
-| list(s) | Converts a sequence *s* to list |
-| set(s) | Converts a sequence *s* to set |
-| dict(t) | Convert a `(key, value)` tuple to dictionary |
-| frozenset(s) | Convert a sequence to a unchangeable set |
-| char(int) | Convert an integer to a character |
-| ord(char) | Convert a character to an integer |
-| hex(x) | Convert integer to hex string (base 16) |
-| oct(x) | Convert integer to oct string (base 8) |
+| str(x) | Converts *x* to string |
+| repr(x) | Converts *x* to printable representation string |
+| tuple(s) | Converts a sequence (iterable) *s* to tuple |
+| list(s) | Converts a sequence (iterable) *s* to list |
+| set(s) | Converts a sequence (iterable) *s* to set |
+| dict(t) | Convert a `(key, value)` tuple *t* to dictionary |
+| frozenset(s) | Convert a sequence (iterable) *s* to a unchangeable set |
+| char(int) | Convert an integer *int* to a character |
+| ord(char) | Convert a character *char* to an integer |
+| hex(x) | Convert integer *x* to hex string (base 16) |
+| oct(x) | Convert integer *x* to oct string (base 8) |
 
 
 
