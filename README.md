@@ -63,9 +63,9 @@ $ python
 | [Syntax](src/Fundamental/Syntax.md) | 14 Jul 2020 |
 | [Variables & Data Types](src/Fundamental/Variables_Data_Types.md) | 16 Jul 2020 |
 | [Operators](src/Fundamental/Operators.md) | 16 Jul 2020 |
-| [conditions & loops][](src/fundamental/conditions_loops.md) | -- |
-| [functions & lambda][](src/fundamental/functions_lambda.md) | -- |
-| [classes & objects][](src/fundamental/classes_objects.md) | -- |
+| [Conditions & Loops](src/Fundamental/Conditions_Loops.md) | 17 Jul 2020 |
+| [Functions & Lambda][](src/Fundamental/Functions_Lambda.md) | -- |
+| [Classes & Objects][](src/Fundamental/Classes_Objects.md) | -- |
 | [Scope][](src/Fundamental/Scope.md) | -- |
 | [Input & Output][](src/Fundamental/Input_Output.md) | -- |
 | [Exception][](src/Fundamental/Exception.md) | -- |
