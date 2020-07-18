@@ -59,16 +59,16 @@ $ python
 ### Fundamental
 |    Title    | Last Update |
 |:-----------:|:------:|
-| [Installation & Setup](src/Fundamental/Installation_Setup.md) | 13 Jul 2020 |
-| [Syntax](src/Fundamental/Syntax.md) | 14 Jul 2020 |
-| [Variables & Data Types](src/Fundamental/Variables_Data_Types.md) | 16 Jul 2020 |
-| [Operators](src/Fundamental/Operators.md) | 16 Jul 2020 |
-| [Conditions & Loops](src/Fundamental/Conditions_Loops.md) | 17 Jul 2020 |
-| [Functions & Lambda][](src/Fundamental/Functions_Lambda.md) | -- |
-| [Classes & Objects][](src/Fundamental/Classes_Objects.md) | -- |
-| [Scope][](src/Fundamental/Scope.md) | -- |
-| [Input & Output][](src/Fundamental/Input_Output.md) | -- |
-| [Exception][](src/Fundamental/Exception.md) | -- |
+| [Installation & Setup](src/Fundamental/en_US/Installation_Setup.md) | 13 Jul 2020 |
+| [Syntax](src/Fundamental/en_US/Syntax.md) | 14 Jul 2020 |
+| [Variables & Data Types](src/Fundamental/en_US/Variables_Data_Types.md) | 16 Jul 2020 |
+| [Operators](src/Fundamental/en_US/Operators.md) | 16 Jul 2020 |
+| [Conditions & Loops](src/Fundamental/en_US/Conditions_Loops.md) | 17 Jul 2020 |
+| [Functions & Lambda](src/Fundamental/en_US/Functions_Lambda.md) | 18 Jul 2020 |
+| [Classes & Objects][](src/Fundamental/en_US/Classes_Objects.md) | -- |
+| [Scope][](src/Fundamental/en_US/Scope.md) | -- |
+| [Input & Output][](src/Fundamental/en_US/Input_Output.md) | -- |
+| [Exception][](src/Fundamental/en_US/Exception.md) | -- |
 | ... | ... |
 
 

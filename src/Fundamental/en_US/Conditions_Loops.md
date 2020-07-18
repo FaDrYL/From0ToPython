@@ -22,7 +22,9 @@ Before -----> Condition -----> Code block inside condition
 ```
 
 
+
 ### If-statement
+
 Using `if` keyword for if-statement.
 
 if the condition is met, the code inside this condition will be executed. Otherwise, ignore this block.
@@ -53,7 +55,9 @@ end of second if
 ```
 
 
+
 #### Else
+
 `else` keyword should be placed at the end of if-statement.
 
 if all the conditions above are not met, the code block in the `else` will be executed.
@@ -77,7 +81,9 @@ end of if-else.
 ```
 
 
+
 #### Else If
+
 `elif` keyword should be placed at middle of if-statement (after `if`).
 
 Also, you can use `elif` as many as you want.
@@ -108,7 +114,9 @@ end of if-statement.
 ```
 
 
+
 #### Nested If-statement
+
 `if` inside `if`, is called nested if-statement.
 
 ```Python
@@ -134,7 +142,9 @@ x is not greater than 10.
 ```
 
 
+
 #### Pass
+
 if-statement cannot be empty, but you can put `pass` instead.
 
 ```Python
@@ -157,7 +167,9 @@ end of if-statement.
 ```
 
 
+
 #### Conditional Expression
+
 if-else statement can be written in one single line.
 
 ```Python
@@ -207,7 +219,9 @@ Before ------> Conditions ------> Codes inside loop
 ```
 
 
+
 ### For Loops
+
 `for` loops can iterate all items in a sequence (iterable).
 
 ```Python
@@ -251,6 +265,7 @@ finished!
 > `range(2, 5)` -> `2 3 4`  
 > `range(0, 5, 2)` -> `0 2 4`  
 > `range(5, 0, -1)` -> `5 4 3 2 1`
+
 
 
 ### While Loops
@@ -307,6 +322,7 @@ while-loop is done and sum = 5050
 ```
 
 
+
 ### Break
 Using `break` can stop the loop and jump out immediately.
 
@@ -326,6 +342,7 @@ output:
 2
 3
 ```
+
 
 
 ### Continue

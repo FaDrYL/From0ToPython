@@ -16,7 +16,9 @@ In Python, you can create variables without declare the type.
 A variable is created once you assigned a value to it.
 
 
+
 ### Variable name
+
 There are some rules for variables name:
 
 - Variable name can only **start** with *letter* or *underscore*:
@@ -26,6 +28,7 @@ There are some rules for variables name:
   - variable3\_
 - Variables name are **case-sensitive**:
   - `variableName` and `variablename` are different variables.
+
 
 
 Conventions:
@@ -45,7 +48,9 @@ Two kind of variables:
   - created on the inside of function.
 
 
+
 ### Assign value
+
 Equal sign `=` is used for value assignment.
 
 - Left side of `=`: the variable name.
@@ -61,6 +66,7 @@ item_stock = 10          # number (int)
 ```
 
 
+
 #### Multi-values Assignment
 ##### 1 to Many
 Python allowed that assign one value to multiple variables.
@@ -70,6 +76,7 @@ All variables `var_one`, `var_two` and `var_three` are `0` in this case:
 ```Python
 var_one = var_two = var_three = 0
 ```
+
 
 
 ##### Many to Many
@@ -106,9 +113,11 @@ Python has some principal built-in data types:
 - [Dictionary](#dictionary)
 
 
+
 Immutable data: Number, Boolean, String, Tuple.
 
 Mutable data: List, Set, Dictionary.
+
 
 
 > We can use `type()` method to check the exact data type of variable.
@@ -118,6 +127,8 @@ Mutable data: List, Set, Dictionary.
 > <class 'int'>
 > ```
 > `
+
+
 
 ### Number
 Python have `int`, `float`, and `complex` classes for number. ("Class" will be covered later)
@@ -139,6 +150,7 @@ Python have `int`, `float`, and `complex` classes for number. ("Class" will be c
 > multiple objects: `del a_int, a_float`
 
 
+
 ### Boolean
 the class for boolean is `bool`.
 
@@ -155,6 +167,7 @@ False
 ```
 
 
+
 ### String
 the class for string is `str`.
 String is wrapped by either `"` or `'`.
@@ -167,6 +180,7 @@ String is wrapped by either `"` or `'`.
 >>> print(type(single_quote_string))
 <class 'str'>
 ```
+
 
 
 #### Escape Character
@@ -199,6 +213,7 @@ Escape sequence table from [https://docs.python.org/3/reference/lexical_analysis
 | \xhh            | Character with hex value hh    | (2,3) |
 
 
+
 #### String Slicing
 String is an array of unicode characters (In Python, a character is a string with the length of 1).
 
@@ -222,6 +237,7 @@ first char is 't', last char is 'g'.
 ```
 
 
+
 ##### Slicing
 Using `[]` with start index (inclusive), end index (exclusive), and separated by a colon `:` to get a part of string.
 
@@ -241,6 +257,7 @@ length of a_string: 13
 first part: Hello
 remaining part: , world!
 ```
+
 
 
 #### String Methods
@@ -310,6 +327,7 @@ diff_type_tuple = ("item_1", 100, 1.2)
 ```
 
 
+
 #### Tuple Item Accessing
 Tuple can be sliced and item can be got by an index. Same as [String](#string-slicing)
 
@@ -329,7 +347,9 @@ item_1
 ```
 
 
+
 > we cannot use `del item` to delete an item in a Tuple.
+
 
 
 #### Special Cases For Creation
@@ -359,6 +379,7 @@ express_list = [x for x in range(3)]        # [0, 1, 2]
 ```
 
 
+
 #### List Item Accessing And Changing
 Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can be got by an index and slicing
 
@@ -376,6 +397,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 ```
 
 
+
 **Change Item**: assign a new value to the position in list.
 ```Python
 >>> a_list = [0, 1, 2, 3]
@@ -383,6 +405,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 >>> print(a_list)
 [0, 100, 2, 3]
 ```
+
 
 
 **Add Item**:
@@ -397,6 +420,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 >>> print(a_list)
 [-1, 0, 1, 2, 3, 4]
 ```
+
 
 
 **Remove Item**
@@ -421,6 +445,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 ```
 
 
+
 **Swap items**
 ```Python
 >>> a_list = [0, 1, 2, 3]
@@ -428,6 +453,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 >>> print(a_list)
 [2, 1, 0, 3]
 ```
+
 
 
 #### List Methods
