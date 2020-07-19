@@ -7,7 +7,7 @@
 
 
 ## Functions
-A function is a organized block of code which will not run until you call it.
+A function is an organized block of code which will not run until you call it.
 
 It can reduce the repetition of code use. You can define it and call (use) it in multiple times.
 
@@ -78,13 +78,13 @@ Different types of arguments:
 - Mandatory Arguments (Positional)
 - Keyword Arguments
 - Default Arguments
-- Arbitrary Arugments
+- Arbitrary Arguments
 
 
 
 #### Positional Arguments
 
-You must follow the position and number of arguemnts.
+You must follow the position and number of arguments.
 
 ```Python
 def func_minus(a, b):
@@ -184,7 +184,7 @@ Two types of variables will get different result:
 
 #### Immutable Variable as Arguments
 
-Change the immutable variable in function will not effect the original variable itself.
+Change the immutable variable in function will not affect the original variable itself.
 
 ```Python
 def change_int(a):
@@ -209,7 +209,7 @@ After: 0
 
 #### Mutable Variable as Arguments
 
-Change the mutable variable in function will effect the passed one.
+Change the mutable variable in function will affect the passed one.
 
 ```Python
 def change_list(a):
@@ -263,7 +263,7 @@ output:
 
 Function Recursion is the function call itself.
 
-An recursion function must has base case to return. Otherwise, it will not stop.
+Recursion functions must have base case to return. Otherwise, it will not stop.
 
 ```Python
 # From "num" add to 0
@@ -312,9 +312,9 @@ output:
 Lambda function is a small anonymous function (single statement).
 
 You can have as many arguments as you want like the general function.
-Also, you cannot use global varaible in Lambda which only accept the argument as variable.
+Also, you cannot use global variable in Lambda which only accept the argument as variable.
 
-You can using it like a normal function call, and it will return the result.
+You can use it like a normal function call, and it will return the result.
 
 **Syntax**: `lambda args : expression`
 

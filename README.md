@@ -15,7 +15,7 @@ This tutorial is designed by Python 3.x (Python 2 have reached end of life, "EOL
 ## Python
 ![Python](https://www.python.org/static/img/python-logo@2x.png) 
 
-Python is an interpreted, high-level, general-purpose programming language.
+Python is an interpreted, high-level, general-purpose, object-oriented programming language.
 
 [Learn more](<https://www.wikiwand.com/en/Python_(programming_language)>)
 
@@ -65,7 +65,7 @@ $ python
 | [Operators](src/Fundamental/en_US/Operators.md) | 16 Jul 2020 |
 | [Conditions & Loops](src/Fundamental/en_US/Conditions_Loops.md) | 17 Jul 2020 |
 | [Functions & Lambda](src/Fundamental/en_US/Functions_Lambda.md) | 18 Jul 2020 |
-| [Classes & Objects][](src/Fundamental/en_US/Classes_Objects.md) | -- |
+| [Classes & Objects](src/Fundamental/en_US/Classes_Objects.md) | 19 Jul 2020 |
 | [Scope][](src/Fundamental/en_US/Scope.md) | -- |
 | [Input & Output][](src/Fundamental/en_US/Input_Output.md) | -- |
 | [Exception][](src/Fundamental/en_US/Exception.md) | -- |
