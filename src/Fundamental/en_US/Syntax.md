@@ -8,6 +8,11 @@ There are some basic syntax for Python.
 
 
 
+## Python File
+Python files is ended with `.py`.
+
+
+
 ## Keywords
 We can **not** using keywords as variable name, method name and identifier.
 
@@ -69,7 +74,7 @@ Hello, world!
 
 ### Multi-line Comment
 
-Multi-lines comment is warped by `'''` and `"""`.
+Multi-lines comment is wrapped by `'''` and `"""`.
 
 ```python
 '''

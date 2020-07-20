@@ -299,8 +299,38 @@ class Penguin(Bird):
 
 
 
+### Using Classes From Other File
+You need to `import` files or `from <fileName> import` classes to using them.
 
-#### Calling Parent Function In Child
+Separate above example to two files: *animal.py* and *penguin.py*
+
+animal.py:
+
+```Python
+class Animal:
+    pass
+
+
+class Bird(Animal):
+    def is_flyable(self):
+        return True
+```
+
+penguin.py:
+
+```Python
+from animal import Bird     # -> From animal.py imports Bird class
+
+class Penguin(Bird):
+    # override parent's function.
+    def is_flyable(self):
+        # is not flyable
+        return False
+```
+
+
+
+### Calling Parent Function In Child
 To call parent function in the child, you can use `super().` with function name.
 
 ```Python

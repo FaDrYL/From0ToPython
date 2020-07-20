@@ -66,8 +66,7 @@ $ python
 | [Conditions & Loops](src/Fundamental/en_US/Conditions_Loops.md) | 17 Jul 2020 |
 | [Functions & Lambda](src/Fundamental/en_US/Functions_Lambda.md) | 18 Jul 2020 |
 | [Classes & Objects](src/Fundamental/en_US/Classes_Objects.md) | 19 Jul 2020 |
-| [Scope][](src/Fundamental/en_US/Scope.md) | -- |
-| [Input & Output][](src/Fundamental/en_US/Input_Output.md) | -- |
+| [Input & Output](src/Fundamental/en_US/Input_Output.md) | 20 Jul 2020 |
 | [Exception][](src/Fundamental/en_US/Exception.md) | -- |
 | ... | ... |
 

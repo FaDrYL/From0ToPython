@@ -46,6 +46,7 @@ Two kind of variables:
   - created on the outside of function. (we will see "function" later)
 - Local variables
   - created on the inside of function.
+    - cannot be accessed outside function.
 
 
 
