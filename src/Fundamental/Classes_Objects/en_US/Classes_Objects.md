@@ -142,7 +142,7 @@ Mars
 ### Functions In Class
 Defined functions in the class allow objects of this class to use those functions.
 
-To define functions, it is same as [before](Functions_Lambda.md#creating-functions).
+To define functions, it is same as [before](../../Functions_Lambda/en_US/Functions_Lambda.md#creating-functions).
 
 But, arguments of functions in class **must** start with `self`.
 

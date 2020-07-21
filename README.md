@@ -8,7 +8,7 @@
 
 A [python](https://www.python.org/) tutorial for beginners.
 
-This tutorial is designed by Python 3.x (Python 2 have reached end of life, "EOL", on 1 Jan 2020).
+This tutorial is designed by Python 3.x (Python 2 have reached the end of life, "EOL", on 1 Jan 2020).
 
 
 
@@ -57,18 +57,18 @@ $ python
 
 ## Tutorials
 ### Fundamental
-|    Title    | Last Update |
+|    Title    | Finished Date |
 |:-----------:|:------:|
-| [Installation & Setup](src/Fundamental/en_US/Installation_Setup.md) | 13 Jul 2020 |
-| [Syntax](src/Fundamental/en_US/Syntax.md) | 14 Jul 2020 |
-| [Variables & Data Types](src/Fundamental/en_US/Variables_Data_Types.md) | 16 Jul 2020 |
-| [Operators](src/Fundamental/en_US/Operators.md) | 16 Jul 2020 |
-| [Conditions & Loops](src/Fundamental/en_US/Conditions_Loops.md) | 17 Jul 2020 |
-| [Functions & Lambda](src/Fundamental/en_US/Functions_Lambda.md) | 18 Jul 2020 |
-| [Classes & Objects](src/Fundamental/en_US/Classes_Objects.md) | 19 Jul 2020 |
-| [Input & Output](src/Fundamental/en_US/Input_Output.md) | 20 Jul 2020 |
-| [Exception][](src/Fundamental/en_US/Exception.md) | -- |
-| ... | ... |
+| [Installation & Setup](src/Fundamental/Installation_Setup/en_US/Installation_Setup.md) | 13 Jul 2020 |
+| [Syntax](src/Fundamental/Syntax/en_US/Syntax.md) | 14 Jul 2020 |
+| [Variables & Data Types](src/Fundamental/Variables_Data_Types/en_US/Variables_Data_Types.md) | 16 Jul 2020 |
+| [Operators](src/Fundamental/Operators/en_US/Operators.md) | 16 Jul 2020 |
+| [Conditions & Loops](src/Fundamental/Conditions_Loops/en_US/Conditions_Loops.md) | 17 Jul 2020 |
+| [Functions & Lambda](src/Fundamental/Functions_Lambda/en_US/Functions_Lambda.md) | 18 Jul 2020 |
+| [Classes & Objects](src/Fundamental/Classes_Objects/en_US/Classes_Objects.md) | 19 Jul 2020 |
+| [Input & Output](src/Fundamental/Input_Output/en_US/Input_Output.md) | 20 Jul 2020 |
+| [Exceptions](src/Fundamental/Exceptions/en_US/Exceptions.md) | 21 Jul 2020 |
+
 
 
 ### Advanced

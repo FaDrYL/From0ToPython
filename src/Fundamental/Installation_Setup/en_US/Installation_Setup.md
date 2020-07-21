@@ -116,7 +116,7 @@ Right click "This PC", select "Properties".
 
 Click "Advanced system settings" -> "Environment Variables...".
 
-Under the "System variables", find and double click "Path".
+Under the "System variables", find and double-click "Path".
 
 At end of "Variable value", add the path of Python (Use **;** to separate with others. e.g. ``path1;path2;path3;pythonPath``).
 
