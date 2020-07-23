@@ -16,7 +16,7 @@ Available in
 
 适合初学者的 [python](https://www.python.org/) 教程.
 
-这个教程适用于 Python 3.x （Python 2 已经于2020年1月1日被官方停止支持了）
+这个教程为 Python 3.x 设计（Python 2 已经于2020年1月1日被官方停止支持了）
 
 <br/>
 
