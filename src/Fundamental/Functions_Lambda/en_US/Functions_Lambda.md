@@ -4,7 +4,7 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
 
-
+<br/>
 
 ## Functions
 A function is an organized block of code which will not run until you call it.
@@ -13,7 +13,7 @@ It can reduce the repetition of code use. You can define it and call (use) it in
 
 After it is done, it can return a result.
 
-
+<br/>
 
 ### Creating Functions
 
@@ -36,7 +36,7 @@ def print_sum(x, y):
     print(str(the_sum))
 ```
 
-
+<br/>
 
 ### Calling Functions
 
@@ -68,7 +68,7 @@ print_sum is running
 3
 ```
 
-
+<br/>
 
 ### Arguments
 
@@ -80,7 +80,7 @@ Different types of arguments:
 - Default Arguments
 - Arbitrary Arguments
 
-
+<br/>
 
 #### Positional Arguments
 
@@ -94,7 +94,7 @@ func_minus(10, 2)   # -> 8
 func_minus(2, 10)   # -> -8
 ```
 
-
+<br/>
 
 #### Keyword Arguments
 
@@ -116,7 +116,7 @@ func_division(10, divisor=2)        # -> 5
 func_division(divisor=2, dividend=10)       # -> 5
 ```
 
-
+<br/>
 
 #### Default Arguments
 
@@ -133,7 +133,7 @@ func(12, 1)     # -> 13
 func(10, 1, c=2)  # -> 13
 ```
 
-
+<br/>
 
 #### Arbitrary Arguments
 
@@ -172,7 +172,7 @@ output:
 main num: 20
 ```
 
-
+<br/>
 
 ### Passing Arguments
 
@@ -180,7 +180,7 @@ Two types of variables will get different result:
 - Immutable
 - Mutable
 
-
+<br/>
 
 #### Immutable Variable as Arguments
 
@@ -205,7 +205,7 @@ In function: 10
 After: 0
 ```
 
-
+<br/>
 
 #### Mutable Variable as Arguments
 
@@ -230,7 +230,7 @@ In function: [1, 2, 5]
 After: [1, 2, 5]
 ```
 
-
+<br/>
 
 ### Return Values
 
@@ -257,7 +257,7 @@ output:
 30
 ```
 
-
+<br/>
 
 ### Function Recursion
 
@@ -306,7 +306,7 @@ output:
 5050
 ```
 
-
+<br/>
 
 ## Lambda
 Lambda function is a small anonymous function (single statement).
@@ -324,7 +324,7 @@ You can use it like a normal function call, and it will return the result.
 15
 ```
 
-
+<br/>
 
 You can return a lambda function in normal function:
 

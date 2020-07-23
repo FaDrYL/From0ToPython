@@ -4,11 +4,13 @@
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)](https://github.com/FaDrYL)
 [![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)](https://www.fadryl.com/)
 
+<br/>
+
 Exceptions will be throw when errors occur.
 
 You can throw and handle exceptions to deal with bugs or mistakes.
 
-
+<br/>
 
 ## Throw Exceptions
 Using `raise <errorName>` to throw an exception. (some errorName are listed [below](#built-in-exceptions))
@@ -31,7 +33,7 @@ Traceback (most recent call last):
 ValueError: x can only be 0 or 1.
 ```
 
-
+<br/>
 
 ## Handle Exceptions
 Using "try-catch" statement to handle exceptions.
@@ -80,7 +82,7 @@ while True:
         break
 ```
 
-
+<br/>
 
 ## Create Customized Exception
 You can create a customized exception by inherit an exception.
@@ -94,7 +96,7 @@ class MyException(Exception):
         return "From MyException:" + repr(self.msg)
 ```
 
-
+<br/>
 
 ## Built-in Exceptions
 

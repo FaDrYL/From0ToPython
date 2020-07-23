@@ -4,14 +4,16 @@
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)](https://github.com/FaDrYL)
 [![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)](https://www.fadryl.com/)
 
+<br/>
+
 There are some basic syntax for Python.
 
-
+<br/>
 
 ## Python File
 Python files is ended with `.py`.
 
-
+<br/>
 
 ## Keywords
 We can **not** using keywords as variable name, method name and identifier.
@@ -41,7 +43,7 @@ Just enter:
 >>> quit()
 ```
 
-
+<br/>
 
 ## Comments
 Comments is using for purpose of in-code documentation and will not be executed.
@@ -51,7 +53,7 @@ There are two types of comment:
 1. Single-line comment.
 2. Multi-lines comment.
 
-
+<br/>
 
 ### Single-line Comment
 
@@ -70,7 +72,7 @@ Hello, world!
 
 > `print()` statement is used to output variables or string to the screen. 
 
-
+<br/>
 
 ### Multi-line Comment
 
@@ -90,7 +92,7 @@ Second line.
 # single-line comment.
 ```
 
-
+<br/>
 
 # Indents
 The most distinctive feature of Python is the use of indentation to represent code blocks, without the use of braces `{}`.
@@ -103,10 +105,11 @@ if 5 > 0:
     print("5 is a positive number")
 ```
 
+<br/>
 
 Indentations in one code blocks should be same. Otherwise, it will produce an error `IndentationError`.
 
-
+<br/>
 
 # Multi-line statement
 In general, one statement should be done in one line.
@@ -121,7 +124,7 @@ theSentence = "first line." + \
               "third line."
 ```
 
-
+<br/>
 
 In `[]`, `{}`, `()`, we can write multi-line statement without `\`.
 

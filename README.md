@@ -6,11 +6,19 @@
 
 ![https://img.shields.io/badge/-Work%20In%20Progress-yellow](https://img.shields.io/badge/-Work%20In%20Progress-yellow)
 
+<br/>
+
+Available in 
+[English](README.md) | 
+[简体中文](README_zh_CN.md)
+
+<br/>
+
 A [python](https://www.python.org/) tutorial for beginners.
 
 This tutorial is designed by Python 3.x (Python 2 have reached the end of life, "EOL", on 1 Jan 2020).
 
-
+<br/>
 
 ## Python
 ![Python](https://www.python.org/static/img/python-logo@2x.png) 
@@ -19,7 +27,7 @@ Python is an interpreted, high-level, general-purpose, object-oriented programmi
 
 [Learn more](<https://www.wikiwand.com/en/Python_(programming_language)>)
 
-
+<br/>
 
 ### The Zen of Python
 
@@ -53,7 +61,7 @@ $ python
 >>> import this
 ```
 
-
+<br/>
 
 ## Tutorials
 ### Fundamental
@@ -69,9 +77,9 @@ $ python
 | [Input & Output](src/Fundamental/Input_Output/en_US/Input_Output.md) | 20 Jul 2020 |
 | [Exceptions](src/Fundamental/Exceptions/en_US/Exceptions.md) | 21 Jul 2020 |
 
+<br/>
 
-
-### Advanced
+### Additional / Usage
 
 ...
 

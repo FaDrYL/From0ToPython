@@ -4,9 +4,11 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
 
+<br/>
+
 This chapter will discuss some basic I/O functions.
 
-
+<br/>
 
 ## Output To Screen
 Using `print()` to print strings to screen.
@@ -16,7 +18,7 @@ Using `print()` to print strings to screen.
 Print
 ```
 
-
+<br/>
 
 Using `.format(*args)` with `{}` in the string to format the output:
 
@@ -26,7 +28,7 @@ First and Second.
 1: Second, 0: First
 ```
 
-
+<br/>
 
 ## Get Input String
 Using `input(prompt="")` to get the input (string).
@@ -40,7 +42,7 @@ enter a number for x? 10
 10
 ```
 
-
+<br/>
 
 ## File Handling
 Using `open(filename, mode="rt")` to work with files.
@@ -56,7 +58,7 @@ There has some different modes:
 | `w` | Write. Overwrite the file, create file if file does not exist. |
 | `x` | Create. Create the file, error if file exists |
 
-
+<br/>
 
 Also, you can specify the file type. Add it after the mode:
 
@@ -65,7 +67,7 @@ Also, you can specify the file type. Add it after the mode:
 | `t` | Text (default) |
 | `b` | Binary |
 
-
+<br/>
 
 Add `+` for read and write the file:
 
@@ -77,7 +79,7 @@ file = open(filename, mode="a+")    # from the end
 file.close()
 ```
 
-
+<br/>
 
 ### Read File
 Using `read(length)` to read file.
@@ -117,7 +119,7 @@ print(file_content)
 file.close()
 ```
 
-
+<br/>
 
 ### Write File
 Using `write()` to write string to file.

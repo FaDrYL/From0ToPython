@@ -4,18 +4,20 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/) 
 
+<br/>
+
 **Variable** is used to store data.
 
 **Data Type** is the type of variable.
 
-
+<br/>
 
 ## Variables
 In Python, you can create variables without declare the type.
 
 A variable is created once you assigned a value to it.
 
-
+<br/>
 
 ### Variable name
 
@@ -29,7 +31,7 @@ There are some rules for variables name:
 - Variables name are **case-sensitive**:
   - `variableName` and `variablename` are different variables.
 
-
+<br/>
 
 Conventions:
 
@@ -40,6 +42,7 @@ Conventions:
   - x_axis
   - website_link
 
+<br/>
 
 Two kind of variables:
 - Global variables
@@ -48,7 +51,7 @@ Two kind of variables:
   - created on the inside of function.
     - cannot be accessed outside function.
 
-
+<br/>
 
 ### Assign value
 
@@ -66,7 +69,7 @@ item_price = 9.95        # number (float)
 item_stock = 10          # number (int)
 ```
 
-
+<br/>
 
 #### Multi-values Assignment
 ##### 1 to Many
@@ -78,7 +81,7 @@ All variables `var_one`, `var_two` and `var_three` are `0` in this case:
 var_one = var_two = var_three = 0
 ```
 
-
+<br/>
 
 ##### Many to Many
 You can assign multiple values to multiple variables in one statement.
@@ -101,7 +104,7 @@ Run the code above will get the output:
 3rd variable
 ```
 
-
+<br/>
 
 ## Data Types
 Python has some principal built-in data types:
@@ -113,13 +116,13 @@ Python has some principal built-in data types:
 - [Set](#set)
 - [Dictionary](#dictionary)
 
-
+<br/>
 
 Immutable data: Number, Boolean, String, Tuple.
 
 Mutable data: List, Set, Dictionary.
 
-
+<br/>
 
 > We can use `type()` method to check the exact data type of variable.
 > ```Python
@@ -129,7 +132,7 @@ Mutable data: List, Set, Dictionary.
 > ```
 > `
 
-
+<br/>
 
 ### Number
 Python have `int`, `float`, and `complex` classes for number. ("Class" will be covered later)
@@ -150,7 +153,7 @@ Python have `int`, `float`, and `complex` classes for number. ("Class" will be c
 > single object: `del var_one`  
 > multiple objects: `del a_int, a_float`
 
-
+<br/>
 
 ### Boolean
 the class for boolean is `bool`.
@@ -167,7 +170,7 @@ Two keywords:
 False
 ```
 
-
+<br/>
 
 ### String
 the class for string is `str`.
@@ -182,7 +185,7 @@ String is wrapped by either `"` or `'`.
 <class 'str'>
 ```
 
-
+<br/>
 
 #### Escape Character
 We need using escape character for some character which is not legal in a string.
@@ -213,7 +216,7 @@ Escape sequence table from [https://docs.python.org/3/reference/lexical_analysis
 | \ooo            | Character with octal value ooo | (1,3) |
 | \xhh            | Character with hex value hh    | (2,3) |
 
-
+<br/>
 
 #### String Slicing
 String is an array of unicode characters (In Python, a character is a string with the length of 1).
@@ -237,7 +240,7 @@ output:
 first char is 't', last char is 'g'.
 ```
 
-
+<br/>
 
 ##### Slicing
 Using `[]` with start index (inclusive), end index (exclusive), and separated by a colon `:` to get a part of string.
@@ -259,7 +262,7 @@ first part: Hello
 remaining part: , world!
 ```
 
-
+<br/>
 
 #### String Methods
 Some string built-in methods:
@@ -314,7 +317,7 @@ Parameters with `=` can be ignored, like `string.endswith(".txt")` rather than `
 
 [Learn more](https://docs.python.org/3/library/stdtypes.html#string-methods)
 
-
+<br/>
 
 ### Tuple
 Tuple **cannot** be **modified** after be created.
@@ -327,7 +330,7 @@ a_tuple = ("item_1", "item_2")
 diff_type_tuple = ("item_1", 100, 1.2)
 ```
 
-
+<br/>
 
 #### Tuple Item Accessing
 Tuple can be sliced and item can be got by an index. Same as [String](#string-slicing)
@@ -347,11 +350,11 @@ item_1
 ("3", "4")
 ```
 
-
+<br/>
 
 > we cannot use `del item` to delete an item in a Tuple.
 
-
+<br/>
 
 #### Special Cases For Creation
 Tuple with 0 item: `tuple_0 = ()`
@@ -360,7 +363,7 @@ Tuple with 1 item: `tuple_1 = (100, )`
 
 > Don't forget the comma `,`!
 
-
+<br/>
 
 ### List
 List is an important data type.
@@ -379,7 +382,7 @@ diff_type_list = [0, "1", 2.0, True]
 express_list = [x for x in range(3)]        # [0, 1, 2]
 ```
 
-
+<br/>
 
 #### List Item Accessing And Changing
 Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can be got by an index and slicing
@@ -397,7 +400,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 [0, 2, 4]
 ```
 
-
+<br/>
 
 **Change Item**: assign a new value to the position in list.
 ```Python
@@ -407,7 +410,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 [0, 100, 2, 3]
 ```
 
-
+<br/>
 
 **Add Item**:
 - `append(item)`, append item to the last.
@@ -422,7 +425,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 [-1, 0, 1, 2, 3, 4]
 ```
 
-
+<br/>
 
 **Remove Item**
 - `remove(item)`, remove a specific item.
@@ -445,7 +448,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 []
 ```
 
-
+<br/>
 
 **Swap items**
 ```Python
@@ -455,7 +458,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 [2, 1, 0, 3]
 ```
 
-
+<br/>
 
 #### List Methods
 There are some built-in methods: 
@@ -474,7 +477,7 @@ There are some built-in methods:
 | reverse() | Reverses the order of the list |
 | sort(reverse=False, key=myFunc) | Sorts the list |
 
-
+<br/>
 
 ### Set
 Set is a list of elements (items) **without** duplicated elements.
@@ -492,7 +495,7 @@ Set can create with `{}` or `set(iterable)`. (Empty set must create as `set()`, 
 {1, 2, 3}
 ```
 
-
+<br/>
 
 ### Dictionary
 Dictionary is **unordered collection**.
@@ -521,7 +524,7 @@ dict_values(['the_item', 8.5, 10, "just an item"])
 {0: 2, 1: 3, 2: 4}
 ```
 
-
+<br/>
 
 ### Data Type Conversion
 Convert `x` to different type:

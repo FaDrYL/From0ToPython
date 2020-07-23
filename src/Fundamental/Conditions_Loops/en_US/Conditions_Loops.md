@@ -4,7 +4,7 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
 
-
+<br/>
 
 ## Conditions
 Conditional statement is used for determine which code block should execute.
@@ -21,7 +21,7 @@ Before -----> Condition -----> Code block inside condition
 
 ```
 
-
+<br/>
 
 ### If-statement
 
@@ -54,7 +54,7 @@ end of first if
 end of second if
 ```
 
-
+<br/>
 
 #### Else
 
@@ -80,7 +80,7 @@ x is not a negative number.
 end of if-else.
 ```
 
-
+<br/>
 
 #### Else If
 
@@ -113,7 +113,7 @@ x is 5.
 end of if-statement.
 ```
 
-
+<br/>
 
 #### Nested If-statement
 
@@ -141,7 +141,7 @@ x is greater than 0.
 x is not greater than 10.
 ```
 
-
+<br/>
 
 #### Pass
 
@@ -166,7 +166,7 @@ output:
 end of if-statement.
 ```
 
-
+<br/>
 
 #### Conditional Expression
 
@@ -197,7 +197,7 @@ x is 5.
 b is 10
 ```
 
-
+<br/>
 
 ## Loops
 Python has two type of loops:
@@ -218,7 +218,7 @@ Before ------> Conditions ------> Codes inside loop
                    
 ```
 
-
+<br/>
 
 ### For Loops
 
@@ -266,7 +266,7 @@ finished!
 > `range(0, 5, 2)` -> `0 2 4`  
 > `range(5, 0, -1)` -> `5 4 3 2 1`
 
-
+<br/>
 
 ### While Loops
 `while` loops using condition to determine "keep looping" or "jump out".
@@ -321,7 +321,7 @@ sum: 5050
 while-loop is done and sum = 5050
 ```
 
-
+<br/>
 
 ### Break
 Using `break` can stop the loop and jump out immediately.
@@ -343,7 +343,7 @@ output:
 3
 ```
 
-
+<br/>
 
 ### Continue
 Using `continue` can skip the rest of codes and directly go to next iteration.
@@ -366,7 +366,7 @@ output:
 8
 ```
 
-
+<br/>
 
 ## One More Thing
 Up to here, you can do lots of things with Python.

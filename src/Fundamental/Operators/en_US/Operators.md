@@ -4,6 +4,8 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
 
+<br/>
+
 Python has some different type of operators:
 - [Arithmetic Operators](#arithmetic-operators)
 - [Assignment Operators](#assignment-operators)
@@ -15,7 +17,7 @@ Python has some different type of operators:
 
 At meanwhile, [Operator Precedence](#operator-precedence) is important.
 
-
+<br/>
 
 ## Arithmetic Operators
 Assume `x = 10` and `y = 3`:
@@ -30,7 +32,7 @@ Assume `x = 10` and `y = 3`:
 | `//` | Integer division | `x // y` -> 3 |
 | `**` | Exponentiation | `x ** y` -> 1000 |
 
-
+<br/>
 
 ## Assignment Operators
 
@@ -51,7 +53,7 @@ Assume `x = 10` and `y = 3`:
 | `<<=` | `x <<= 5` | `x = x << 5` |
 | `:=` (Python3.8+) | `x := 2` | `x = 2` and return x |
 
-
+<br/>
 
 ## Bitwise Operators
 Bitwise operation will consider number as a binary.
@@ -70,7 +72,7 @@ Bitwise operation will consider number as a binary.
 | `<<` | Zero fill LEFT shift | `a << 2` -> `4` (`0000 0100`) |
 | `>>` | Signed RIGHT shift | `b >> 1` -> `3` (`0000 0011`) |
 
-
+<br/>
 
 ## Comparison Operators
 Comparison operation will get boolean result of comparison.
@@ -86,7 +88,7 @@ Assume `a = 5` and `b = 8`:
 | `>=` | Greater than or Equal to | `a >= b` -> `False` |
 | `<=` | Less than or Equal to | `a <= b` -> `True` |
  
- 
+<br/>
  
 ## Identity Operators
 Identity operators are used to compare the objects and their memory location.
@@ -96,7 +98,7 @@ Identity operators are used to compare the objects and their memory location.
 | `is` | Return `True`, if both of them are same object | `a is b` |
 | `is not` | Return `True`, if they are not same object | `a is not b` |
 
-
+<br/>
 
 ## Logical Operators
 Logical Operators are used to combine conditional statements.
@@ -109,7 +111,7 @@ Assume `a = 2`:
 | `or` | OR, return `True` if at least one of them is true | `(a < 0) or (a > 3)` -> `False` |
 | `not` | NEGATION, return `True` if it is false | `not (a > 0)` -> `False`|
 
-
+<br/>
 
 ## Membership Operators
 Membership Operators are used to check if a specified item in a sequence (List, String, Set, Tuple, Dictionary ...).
@@ -119,7 +121,7 @@ Membership Operators are used to check if a specified item in a sequence (List, 
 | `in` | `True` if the item can be found | `"o" in "a book"` -> `True` |
 | `not in` | `True` if the item cannot be found | `1 not in [2, 3, 4]` -> `True` |
 
-
+<br/>
 
 ## Operator Precedence
 Operators have different precedence.

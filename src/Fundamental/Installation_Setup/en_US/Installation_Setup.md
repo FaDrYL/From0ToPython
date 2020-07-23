@@ -4,9 +4,11 @@
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)](https://github.com/FaDrYL)
 [![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)](https://www.fadryl.com/)
 
+<br/>
+
 Install Python and setup environment variable.
 
-
+<br/>
 
 ## Installation
 ### 0. To check if have Python installed
@@ -23,7 +25,7 @@ If the output like that (`Python 3.8.2`) and the version is 3.x, you can jump to
 
 Otherwise, follow the instructions below.
 
-
+<br/>
 
 ### 1. Install Python
 > Windows
@@ -38,7 +40,7 @@ Then, just double-click to install it.
 
 **! Don't forget to tick the "Add Python to PATH".**
 
-
+<br/>
 
 > Unix & Linux
 
@@ -76,7 +78,7 @@ Fedora:
 $ sudo dnf install python38
 ```
 
-
+<br/>
 
 > MAC OS X
 
@@ -84,7 +86,7 @@ Open the link: https://www.python.org/downloads/mac-osx/
 
 Find a version, and download a **macOS 64-bit installer**.
 
-
+<br/>
 
 ### 2. Check installation
 
@@ -92,7 +94,7 @@ After that, check installation with ``python -V``.
 
 If it is not working, follow the last step below.
 
-
+<br/>
 
 ## Setup
 ### Configure environment variable
@@ -120,7 +122,7 @@ Under the "System variables", find and double-click "Path".
 
 At end of "Variable value", add the path of Python (Use **;** to separate with others. e.g. ``path1;path2;path3;pythonPath``).
 
-
+<br/>
 
 > Unix & Linux
 

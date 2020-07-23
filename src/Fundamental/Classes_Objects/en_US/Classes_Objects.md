@@ -4,11 +4,13 @@
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
 ![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)
 
+<br/>
+
 Python is an object-oriented language which everything is an object in Python.
 
 You can make your own objects.
 
-
+<br/>
 
 ## Classes & Objects
 Class is the skeleton of objects. It defines what the object is and how it looks like.
@@ -19,7 +21,7 @@ for example:
 
 Objects `Earth`, `Mars` are created from a class `Planet`.
 
-
+<br/>
 
 ### Create A Class
 Using `class` keyword to create a class:
@@ -29,7 +31,7 @@ class OneClass:
     pass
 ```
 
-
+<br/>
 
 Using built-in function `__init__()` to initialize an object and get some arguments from creation.
 
@@ -39,7 +41,7 @@ class OneClass:
         pass
 ```
 
-
+<br/>
 
 ### Create An Object
 To create an object, we just need to use the class name w/ or w/o arguments.
@@ -63,7 +65,7 @@ oneObject = OneClass()
 secondObject = SecondClass(10)      # ignore the 'self', and passing a value for 'x'.
 ```
 
-
+<br/>
 
 ### Variables In Class
 Variables in class have two types:
@@ -72,7 +74,7 @@ Variables in class have two types:
 
 You can directly access it by dot `.`.
 
-
+<br/>
 
 #### Class Variable
 Class variable is shared value within all objects of this class.
@@ -111,7 +113,7 @@ Earth: Planet
 Mars: Planet (Mars)
 ```
 
-
+<br/>
 
 #### Object Variable
 The object variable is belong to the object itself.
@@ -137,7 +139,7 @@ Earth
 Mars
 ```
 
-
+<br/>
 
 ### Functions In Class
 Defined functions in the class allow objects of this class to use those functions.
@@ -150,11 +152,11 @@ The first argument is a reference to the current instance (object) of this class
 
 At meanwhile, to call those functions we should ignore the argument `self`.
 
-
+<br/>
 
 To access other functions in the class, you should call with `self.`.
 
-
+<br/>
 
 ```Python
 class Planet:
@@ -181,7 +183,7 @@ output:
 Name of this planet is: Earth
 ```
 
-
+<br/>
 
 ### Make Variables And Functions Private
 Generally, variables and functions can be directly accessed by dot `.` from outside.
@@ -204,7 +206,7 @@ class Planet:
         return "This Planet is " + self.name
 ```
 
-
+<br/>
 
 ### Class Inheritance
 A class can inherit from other class (parent class, base class).
@@ -232,6 +234,7 @@ class Panda(Mammal):
     pass
 ```
 
+<br/>
 
 #### Calling Function From Object.
 Calling a function in an object will search the class of this object first. 
@@ -271,7 +274,7 @@ Animal
 1
 ```
 
-
+<br/>
 
 ##### Override A Function
 To override a function, you just need to use a same function name and same arguments.
@@ -297,7 +300,7 @@ class Penguin(Bird):
         return False
 ```
 
-
+<br/>
 
 ### Using Classes From Other File
 You need to `import` files or `from <fileName> import` classes to using them.
@@ -328,7 +331,7 @@ class Penguin(Bird):
         return False
 ```
 
-
+<br/>
 
 ### Calling Parent Function In Child
 To call parent function in the child, you can use `super().` with function name.
@@ -363,7 +366,7 @@ output:
 Animal Panda
 ```
 
-
+<br/>
 
 ### Built-in Functions
 To override those functions (most frequency to use) to get the result in different way.
