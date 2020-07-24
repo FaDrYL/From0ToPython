@@ -56,7 +56,7 @@ Decompress the package *Python-3.x.x.tgz* (*3.x.x* is the version) and build.
 $ tar -zxvf Python-3.8.3.tgz
 $ cd Python-3.8.3
 $ ./configure
-& make && make install
+$ make && make install
 ```
 
 *OR*

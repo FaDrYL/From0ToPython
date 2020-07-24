@@ -21,7 +21,7 @@
 Python 3.8.2
 ```
 
-如果显示类似与 `Python 3.8.2` 及其版本是 3.x （大版本为 3 和任意的小版本），你就可以跳过这章了。
+如果显示类似于 `Python 3.8.2` 及其版本是 3.x （大版本为 3 和任意的小版本），你就可以跳过这章了。
 
 反之，就继续往下看吧。
 
@@ -56,7 +56,7 @@ Python 3.8.2
 $ tar -zxvf Python-3.8.3.tgz
 $ cd Python-3.8.3
 $ ./configure
-& make && make install
+$ make && make install
 ```
 
 *或者*
