@@ -66,20 +66,27 @@ $ python
 ## Tutorials
 ### Fundamental
 |    Title    | Finished Date |
-|:-----------:|:------:|
-| [Installation & Setup](src/Fundamental/Installation_Setup/en_US/Installation_Setup.md) | 13 Jul 2020 |
-| [Syntax](src/Fundamental/Syntax/en_US/Syntax.md) | 14 Jul 2020 |
-| [Variables & Data Types](src/Fundamental/Variables_Data_Types/en_US/Variables_Data_Types.md) | 16 Jul 2020 |
-| [Operators](src/Fundamental/Operators/en_US/Operators.md) | 16 Jul 2020 |
-| [Conditions & Loops](src/Fundamental/Conditions_Loops/en_US/Conditions_Loops.md) | 17 Jul 2020 |
-| [Functions & Lambda](src/Fundamental/Functions_Lambda/en_US/Functions_Lambda.md) | 18 Jul 2020 |
-| [Classes & Objects](src/Fundamental/Classes_Objects/en_US/Classes_Objects.md) | 19 Jul 2020 |
-| [Input & Output](src/Fundamental/Input_Output/en_US/Input_Output.md) | 20 Jul 2020 |
-| [Exceptions](src/Fundamental/Exceptions/en_US/Exceptions.md) | 21 Jul 2020 |
+|:-----------:|:-------------:|
+| [Installation & Setup](src/Fundamental/Installation_Setup/Installation_Setup_en_US.md) | 13 Jul 2020 |
+| [Syntax](src/Fundamental/Syntax/Syntax_en_US.md) | 14 Jul 2020 |
+| [Variables & Data Types](src/Fundamental/Variables_Data_Types/Variables_Data_Types_en_US.md) | 16 Jul 2020 |
+| [Operators](src/Fundamental/Operators/Operators_en_US.md) | 16 Jul 2020 |
+| [Conditions & Loops](src/Fundamental/Conditions_Loops/Conditions_Loops_en_US.md) | 17 Jul 2020 |
+| [Functions & Lambda](src/Fundamental/Functions_Lambda/Functions_Lambda_en_US.md) | 18 Jul 2020 |
+| [Classes & Objects](src/Fundamental/Classes_Objects/Classes_Objects_en_US.md) | 19 Jul 2020 |
+| [Input & Output](src/Fundamental/Input_Output/Input_Output_en_US.md) | 20 Jul 2020 |
+| [Exceptions](src/Fundamental/Exceptions/Exceptions_en_US.md) | 21 Jul 2020 |
 
 <br/>
 
-### Additional / Usage
-
+### Advanced
 ...
+
+<br/>
+
+### Usages
+| Title | Description | Finished Date |
+|:-----:|:-----------:|:-------------:|
+| [FromPythonToSnake] | Make and play Snake game with Python | - |
+
 

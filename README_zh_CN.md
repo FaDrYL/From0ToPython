@@ -96,8 +96,8 @@ $ python
 ### 基础篇
 | 标题 | 完成日期 |
 |:---:|:-------:|
-| [安装 & 配置](src/Fundamental/Installation_Setup/zh_CN/Installation_Setup.md) | 23/07/2020 |
-| [语法][](src/Fundamental/Syntax/zh_CN/Syntax.md) | - |
+| [安装 & 配置](src/Fundamental/Installation_Setup/Installation_Setup_zh_CN.md) | 23/07/2020 |
+| [语法](src/Fundamental/Syntax/Syntax_zh_CN.md) | 24/07/2020 |
 | [变量 & 数据类型][](src/Fundamental/Variables_Data_Types/zh_CN/Variables_Data_Types.md) | - |
 | [操作符][](src/Fundamental/Operators/zh_CN/Operators.md) | - |
 | [条件判断 & 循环][](src/Fundamental/Conditions_Loops/zh_CN/Conditions_Loops.md) | - |
@@ -108,7 +108,14 @@ $ python
 
 <br/>
 
-### 进阶/使用篇
-
+### 进阶篇
 ...
+
+<br/>
+
+###  使用篇
+| 标题 | 简述 | 完成日期 |
+|:---:|:---:|:-------:|
+| [从 Python 到 贪吃蛇] | 用 Python 写个贪吃蛇 | - |
+
 
