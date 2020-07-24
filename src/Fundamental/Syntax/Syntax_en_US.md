@@ -8,6 +8,8 @@
 
 There are some basic syntax for Python.
 
+[[Code sample]](Syntax_sample.py)
+
 <br/>
 
 ## Python File
