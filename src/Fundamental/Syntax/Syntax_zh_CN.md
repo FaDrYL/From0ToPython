@@ -6,7 +6,7 @@
 
 <br/>
 
-这章会讲 Python 的一些基本语法。
+本章会讲 Python 的一些基本语法。
 
 [代码示例](Syntax_sample.py)
 
