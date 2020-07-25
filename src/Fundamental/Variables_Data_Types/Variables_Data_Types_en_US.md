@@ -10,6 +10,8 @@
 
 **Data Type** is the type of variable.
 
+[[Code sample]](Variables_Data_Types_sample.py)
+
 <br/>
 
 ## Variables
@@ -251,7 +253,7 @@ first_word = a_string[0:5]          # or a_string[:5]
 remaining_part = a_string[5:]       # or a_string[:len(a_string)]
 print("length of a_string: " + len(a_string))
 print("first part: " + first_word)
-print("remaining part: " + left_part)
+print("remaining part: " + remaining_part)
 ```
 
 output:
@@ -430,7 +432,7 @@ Same as [Tuple](#tuple-item-accessing) and [String](#string-slicing), item can b
 **Remove Item**
 - `remove(item)`, remove a specific item.
 - `del list[index]`, remove a specific item.
-- `pop(index=len(list))`, pop the item at the specified index (by default, last one).
+- `pop(index=len(list)-1)`, pop the item at the specified index (by default, last one).
 - `clear()`, clear all items.
 ```Python
 >>> a_list = [0, 1, 2, 3]
@@ -472,7 +474,7 @@ There are some built-in methods:
 | extend(new_list) | Extends *new_list* to the end of the list. |
 | index(item) | Returns the index of the first elements which is *item* |
 | insert(index, item) | Insert an item to a certain index |
-| pop(index=len(list)) | Removes the element at the specific index (by default, last one) |
+| pop(index=len(list)-1) | Removes the element at the specific index (by default, last one) |
 | remove(item) | Removes the element which is *item* |
 | reverse() | Reverses the order of the list |
 | sort(reverse=False, key=myFunc) | Sorts the list |
@@ -509,7 +511,7 @@ Using same key will update and overwrite the old value with new one.
 
 ```
 >>> a_dict = {'name': "the_item", 'price': 9.95, 'stock': 10}       # create a dictionary
->>> print(a_dict[name])                 # access a item
+>>> print(a_dict["name"])                 # access a item
 the_item
 >>> a_dict["desc"] = "just an item"     # add a new item
 >>> a_dict['price'] = 8.5               # update a item

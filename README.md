@@ -80,7 +80,9 @@ $ python
 <br/>
 
 ### Advanced
-...
+|    Title    | Finished Date |
+|:-----------:|:-------------:|
+|  Function print() | - |
 
 <br/>
 

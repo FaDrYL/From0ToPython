@@ -98,18 +98,21 @@ $ python
 |:---:|:-------:|
 | [安装 & 配置](src/Fundamental/Installation_Setup/Installation_Setup_zh_CN.md) | 23/07/2020 |
 | [语法](src/Fundamental/Syntax/Syntax_zh_CN.md) | 24/07/2020 |
-| [变量 & 数据类型][](src/Fundamental/Variables_Data_Types/zh_CN/Variables_Data_Types.md) | - |
-| [操作符][](src/Fundamental/Operators/zh_CN/Operators.md) | - |
-| [条件判断 & 循环][](src/Fundamental/Conditions_Loops/zh_CN/Conditions_Loops.md) | - |
-| [函数 & Lambda][](src/Fundamental/Functions_Lambda/zh_CN/Functions_Lambda.md) | - |
-| [类 & 对象][](src/Fundamental/Classes_Objects/zh_CN/Classes_Objects.md) | - |
-| [输入 & 输出][](src/Fundamental/Input_Output/zh_CN/Input_Output.md) | - |
-| [异常][](src/Fundamental/Exceptions/zh_CN/Exceptions.md) | - |
+| [变量 & 数据类型](src/Fundamental/Variables_Data_Types/Variables_Data_Types_zh_CN.md) | 25/07/2020 |
+| [操作符][](src/Fundamental/Operators/Operators_zh_CN.md) | - |
+| [条件判断 & 循环][](src/Fundamental/Conditions_Loops/Conditions_Loops_zh_CN.md) | - |
+| [函数 & Lambda][](src/Fundamental/Functions_Lambda/Functions_Lambda_zh_CN.md) | - |
+| [类 & 对象][](src/Fundamental/Classes_Objects/Classes_Objects_zh_CN.md) | - |
+| [输入 & 输出][](src/Fundamental/Input_Output/Input_Output_zh_CN.md) | - |
+| [异常][](src/Fundamental/Exceptions/Exceptions_zh_CN.md) | - |
 
 <br/>
 
 ### 进阶篇
-...
+| 标题 | 完成日期 |
+|:---:|:-------:|
+|  [函数 print()] | - |
+| ... | ... |
 
 <br/>
 
@@ -117,5 +120,6 @@ $ python
 | 标题 | 简述 | 完成日期 |
 |:---:|:---:|:-------:|
 | [从 Python 到 贪吃蛇] | 用 Python 写个贪吃蛇 | - |
+| ... | ... | ... |
 
 
