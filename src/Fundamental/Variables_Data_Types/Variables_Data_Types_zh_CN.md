@@ -65,9 +65,9 @@ Python 有一些命名变量的规则：
 
 ```Python
 #  变量名  |    值
-item_name = "the item"   # string
-item_price = 9.95        # number (float)
-item_stock = 10          # number (int)
+item_name = "the item"   # 字符串
+item_price = 9.95        # 数 (浮点数)
+item_stock = 10          # 数 (整数)
 ```
 
 <br/>
@@ -223,7 +223,7 @@ Python中，字符串使用单引号 `'` 或双引号 `"` 来定义。
 
 <br/>
 
-#### string-slicing
+#### String Slicing
 字符串的本质是一组 unicode 字符 （在 Python 里，一个字符是一个长度为 1 的字符串）
 
 所以，你可以在字符串后使用方括号 `[]` 以及 索引 来得到这个字符串中相对应的字符。
@@ -239,7 +239,7 @@ last_char = a_string[-1]
 print("第一个字符： \'" + first_char + "\', 最后一个字符： \'" + last_char + "\'.")
 ```
 
-output:
+输出:
 
 ```
 第一个字符： 't', 最后一个字符： 'g'.
@@ -269,7 +269,7 @@ a_string 的长度: 13
 
 <br/>
 
-#### 字符串中的函数
+#### 字符串的内置函数
 一些字符串中的内置函数：
 
 使用例子：`a_string = a_string.capitalize()`
