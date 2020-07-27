@@ -99,8 +99,8 @@ $ python
 | [安装 & 配置](src/Fundamental/Installation_Setup/Installation_Setup_zh_CN.md) | 23/07/2020 |
 | [语法](src/Fundamental/Syntax/Syntax_zh_CN.md) | 24/07/2020 |
 | [变量 & 数据类型](src/Fundamental/Variables_Data_Types/Variables_Data_Types_zh_CN.md) | 25/07/2020 |
-| [操作符][](src/Fundamental/Operators/Operators_zh_CN.md) | - |
-| [条件判断 & 循环][](src/Fundamental/Conditions_Loops/Conditions_Loops_zh_CN.md) | - |
+| [运算符](src/Fundamental/Operators/Operators_zh_CN.md) | 27/07/2020 |
+| [条件判断 & 循环](src/Fundamental/Conditions_Loops/Conditions_Loops_zh_CN.md) | 27/07/2020 |
 | [函数 & Lambda][](src/Fundamental/Functions_Lambda/Functions_Lambda_zh_CN.md) | - |
 | [类 & 对象][](src/Fundamental/Classes_Objects/Classes_Objects_zh_CN.md) | - |
 | [输入 & 输出][](src/Fundamental/Input_Output/Input_Output_zh_CN.md) | - |

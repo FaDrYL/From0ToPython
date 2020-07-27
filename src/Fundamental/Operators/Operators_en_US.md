@@ -6,6 +6,10 @@
 
 <br/>
 
+[[Code sample]](Operators_sample.py)
+
+<br/>
+
 Python has some different type of operators:
 - [Arithmetic Operators](#arithmetic-operators)
 - [Assignment Operators](#assignment-operators)

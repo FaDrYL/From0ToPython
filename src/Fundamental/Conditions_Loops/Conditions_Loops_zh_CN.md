@@ -1,4 +1,4 @@
-# Conditions & Loops
+# 条件判断 & 循环
 ![https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB) 
 
 ![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)
@@ -6,51 +6,54 @@
 
 <br/>
 
-[[Code sample]](Conditions_Loops_sample.py)
+[[代码示例]](Conditions_Loops_sample.py)
 
 <br/>
 
 ## Conditions
-Conditional statement is used for determine which code block should execute.
+**条件判断**
 
-Flow chart:
+条件语句用于判断、决定需要执行的代码块。
+
+流程图:
 
 ```
-                        if is true
-Before -----> Condition -----> Code block inside condition
-                  |                        |
-                  |                        |
-                  |if is false             |
-                  ------------------------------------------------> After
+                如果是True
+判断前 -----> 判断 -----> 判断语句内的代码块
+              |                |
+              |                |
+              |如果是 False     |
+              ------------------------------------------------> 判断后
 
 ```
 
 <br/>
 
 ### If-statement
+**if 语句**
 
-Using `if` keyword for if-statement.
+关键字 `if` 用于开始 if 语句.
 
-if the condition is met, the code inside this condition will be executed. Otherwise, ignore this block.
+如果条件符合，条件内部的代码块将会执行。反之，这个代码块就会被忽略。（如果）
 
-Indentation is important for code block inside the condition.
-Also, it means the code block is belong to this if-statement.
+对于条件内的代码块来说，**缩进**很重要。
+同时，它意味着这个代码块是属于当前 if 语句的。
 
 ```Python
 x = 5
 
-# First if-statement
+# 第一个 if 语句
 if x > 0:                       # True
-    print("x is greateter than 0.")    # Indent!
+    print("x is greateter than 0.")    # 缩进!
 print("end of first if")
 
-# Second if-statement
+# 第二个 if 语句
 if x == 0 or x == 1:            # False
-    print("x is 0 or 1")        # This line will be ignored
+    print("x is 0 or 1")        # 这行代码会被忽略
 print("end of second if")
 ```
 
-output:
+输出:
 
 ```
 x is greater than 0.
@@ -62,9 +65,9 @@ end of second if
 
 #### Else
 
-`else` keyword should be placed at the end of if-statement.
+关键字 `else` 放置于 if 语句的末尾部分。
 
-if all the conditions above are not met, the code block in the `else` will be executed.
+如果前面的条件都不符合，那么 `else` 内的代码块将会被执行。（不然）
 
 ```Python
 x = 5
@@ -77,7 +80,7 @@ else:
 print("end of if-else.")
 ```
 
-output:
+输出:
 
 ```
 x is not a negative number.
@@ -88,25 +91,25 @@ end of if-else.
 
 #### Else If
 
-`elif` keyword should be placed at middle of if-statement (after `if`).
+关键字 `elif` 放置于 if 语句的中间部分（`if` 后，`else` 前）。
 
-Also, you can use `elif` as many as you want.
+同时，你可以使用随意数量的 `elif`。
 
-Only the code block inside the first met condition will be executed. Then, jump to out of if-statement.
+只有第一个符合的条件之内的代码块将会被执行。之后就会跳出到整个 if 语句的外面。
 
 ```Python
 x = 5
 
 if x > 10:
-    print("x is greater than 10.")  # not met.
+    print("x is greater than 10.")  # 不符合
 elif x > 5:
-    print("x is greater than 5.")   # not met.
+    print("x is greater than 5.")   # 不符合
 elif x == 5:
-    print("x is 5.")                # run this.
+    print("x is 5.")                # 符合，执行这行，完成后跳出 if
 elif x > 0:
-    print("x is greater than 0.")   # ignored.
+    print("x is greater than 0.")   # 忽略
 else:
-    print("all conditions are not met.")    # ignored.
+    print("all conditions are not met.")    # 忽略
 print("end of if-statement.")
 ```
 
@@ -120,8 +123,9 @@ end of if-statement.
 <br/>
 
 #### Nested If-statement
+**嵌套 if 语句**
 
-`if` inside `if`, is called nested if-statement.
+在 `if` 内的 `if`, 就被叫做嵌套 if 语句.
 
 ```Python
 x = 5
@@ -138,7 +142,7 @@ else:
     print("x is not greater than 0.")
 ```
 
-output:
+输出:
 
 ```
 x is greater than 0.
@@ -149,7 +153,7 @@ x is not greater than 10.
 
 #### Pass
 
-if-statement cannot be empty, but you can put `pass` instead.
+if 语句内不能是空的，但是你可以用 pass 来替代留空。
 
 ```Python
 x = 5
@@ -164,7 +168,7 @@ else:
 print("end of if-statement.")
 ```
 
-output:
+输出:
 
 ```
 end of if-statement.
@@ -173,27 +177,28 @@ end of if-statement.
 <br/>
 
 #### Conditional Expression
+**条件语句表达式**
 
-if-else statement can be written in one single line.
+简单的 if-else 语句可以用一行完成。
 
 ```Python
 x = 5
 
 print("x is 5.") if x == 5 else print("x is not 5")
 
-# Same as
+# 等同于:
 if x == 5:
     print("x is 5.")
 else:
     print("x is not 5.")
 
-# Also, another example.
+# 另一个例子：
 a = 0
 b = 10 if a == 0 else 20
 print("b is " + str(b))        # 10
 ```
 
-output:
+输出:
 
 ```
 x is 5.
@@ -204,29 +209,30 @@ b is 10
 <br/>
 
 ## Loops
-Python has two type of loops:
-- `for` loops
-- `while` loops
+**循环**
 
-Flow chart:
+Python 有两种循环语句:
+- `for` 循环
+- `while` 循环
+
+流程图:
 
 ```
-                   ------------------------
-                   |                      |
-                   v      if True         |
-Before ------> Conditions ------> Codes inside loop
-                   |
-                   |
-                   |if False
-                   -------------------> After
+               ----------------
+               |              |
+               v 如果是 True   |
+判断前 ------> 判断 ------> 循环内的代码
+               |
+               |
+               |如果是 False
+               -------------------> 判断后
                    
 ```
 
 <br/>
 
 ### For Loops
-
-`for` loops can iterate all items in a sequence (iterable).
+`for` 循环可以迭代所有在一个序列（iterable）中的元素。
 
 ```Python
 for i in range(0, 5):
@@ -243,10 +249,10 @@ a_list = ["for", "while"]
 for i in range(len(a_list)):
     print(i, a_list[i])
 else:
-    print("finished!")      # after loop done.
+    print("finished!")      # 循环完成后
 ```
 
-output:
+输出:
 
 ```
 0
@@ -264,7 +270,7 @@ r
 finished!
 ```
 
-> built-in method `range(beg, end, step=1)` can create a number sequence.  
+> 内置函数 `range(beg, end, step=1)` 可以创建一个数字序列.  
 > `range(5)` -> `0 1 2 3 4`  
 > `range(2, 5)` -> `2 3 4`  
 > `range(0, 5, 2)` -> `0 2 4`  
@@ -273,28 +279,28 @@ finished!
 <br/>
 
 ### While Loops
-`while` loops using condition to determine "keep looping" or "jump out".
+`while` 循环使用条件语句来判断是应该继续循环，还是跳出循环。
 
-formation of `while`:
+`while` 语句的格式:
 
 ```Python
-while <condition>:
-    <codes>
+while <条件>:
+    <代码>
 ```
 
-and
+和
 
 ```Python
-while <condition>:
-    <codes, then go back to while>
+while <条件>:
+    <代码, 完成后跳回 while 进行判断>
 else:
-    <codes for condition is violated, then jump out>
+    <如果条件不符就运行这里的代码, 完成后跳出循环>
 ```
 
-Example:
+例子:
 
 ```Python
-# From 1 add to 100
+# 从 1 加到 100
 count = 1
 the_sum = 0
 
@@ -306,7 +312,7 @@ print("sum: " + str(the_sum))
 
 print("---")
 
-# With else
+# 有 else 的例子
 count = 1
 the_sum = 0
 
@@ -317,7 +323,7 @@ else:
     print("while-loop is done and sum = " + str(the_sum))
 ```
 
-output:
+输出:
 
 ```
 sum: 5050
@@ -328,17 +334,18 @@ while-loop is done and sum = 5050
 <br/>
 
 ### Break
-Using `break` can stop the loop and jump out immediately.
+使用关键字 `break` 来直接结束循环。
 
 ```Python
 for i in range(10):
     print(i)
     
+    # 如果 i = 3，就直接停止循环
     if i == 3:
         break
 ```
 
-output:
+输出:
 
 ```
 0
@@ -350,17 +357,18 @@ output:
 <br/>
 
 ### Continue
-Using `continue` can skip the rest of codes and directly go to next iteration.
+使用关键字 `continue` 来跳过当前循环剩下的代码，并直接进行下一个循环迭代。
 
 ```Python
 for i in range(10):
+    # 跳过所有单数
     if i % 2 == 1:
         continue
     
     print(i)
 ```
 
-output:
+输出:
 
 ```
 0
@@ -372,9 +380,9 @@ output:
 
 <br/>
 
-## One More Thing
-Up to here, you can do lots of things with Python.
+## 还有一件事
+到目前为止，你已经可以使用 Python 来做很多简单的事情了。
 
-Do some practices to get it.
+通过练习来掌握它吧。
 
 
