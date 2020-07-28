@@ -6,6 +6,10 @@
 
 <br/>
 
+[[Code sample]](Functions_Lambda_sample.py)
+
+<br/>
+
 ## Functions
 A function is an organized block of code which will not run until you call it.
 
@@ -155,15 +159,19 @@ output:
 3
 ```
 
+<\n>
+
 *or*
+
+<\n>
 
 Arbitrary keyword arguments (add `**` before the argument)
 
 ```Python
-def func(**nums):
-    print("main num: " + nums["main_num"])
+def a_func(**kwargs):
+    print("main num: " + str(kwargs["main_num"]))
 
-func("num_one"=10, "main_num"=20)
+a_func(num_one=10, main_num=20)
 ```
 
 output:
@@ -189,12 +197,12 @@ Change the immutable variable in function will not affect the original variable 
 ```Python
 def change_int(a):
     a = 10      # this a becomes a new object.
-    print("In function: " + a)
+    print("In function: " + str(a))
 
 a_int = 0
 print("Before: " + str(a_int))
 change_int(a_int)
-print("After: " + str(a_int)
+print("After: " + str(a_int))
 ```
 
 output:
