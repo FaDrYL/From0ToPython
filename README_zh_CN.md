@@ -1,8 +1,8 @@
 # 从 0 到 Python
 [![Project link](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB)](https://github.com/FaDrYL/From0ToPython) 
 
-[![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15&link=https://github.com/FaDrYL)](https://github.com/FaDrYL)
-[![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f&link=https://www.fadryl.com/&link=https://www.fadryl.com/)](https://www.fadryl.com/)
+[![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15)](https://github.com/FaDrYL)
+[![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f)](https://www.fadryl.com/)
 
 ![https://img.shields.io/badge/-Work%20In%20Progress-yellow](https://img.shields.io/badge/-Work%20In%20Progress-yellow)
 
@@ -92,7 +92,7 @@ $ python
 
 <br/>
 
-## 教程
+## 教程 📕
 ### 基础篇
 | 标题 | 完成日期 |
 |:---:|:-------:|
@@ -116,7 +116,7 @@ $ python
 
 <br/>
 
-###  使用篇
+### 使用篇
 | 标题 | 简述 | 完成日期 |
 |:---:|:---:|:-------:|
 | [从 Python 到 贪吃蛇] | 用 Python 写个贪吃蛇 | - |
