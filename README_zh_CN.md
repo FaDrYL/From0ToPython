@@ -92,7 +92,7 @@ $ python
 
 <br/>
 
-## 教程 📕
+## 📕 教程
 ### 基础篇
 | 标题 | 完成日期 |
 |:---:|:-------:|
@@ -102,7 +102,7 @@ $ python
 | [运算符](src/Fundamental/Operators/Operators_zh_CN.md) | 27/07/2020 |
 | [条件判断 & 循环](src/Fundamental/Conditions_Loops/Conditions_Loops_zh_CN.md) | 27/07/2020 |
 | [函数 & Lambda](src/Fundamental/Functions_Lambda/Functions_Lambda_zh_CN.md) | 28/07/2020 |
-| [类 & 对象][](src/Fundamental/Classes_Objects/Classes_Objects_zh_CN.md) | - |
+| [类 & 对象](src/Fundamental/Classes_Objects/Classes_Objects_zh_CN.md) | 29/07/2020 |
 | [输入 & 输出][](src/Fundamental/Input_Output/Input_Output_zh_CN.md) | - |
 | [异常][](src/Fundamental/Exceptions/Exceptions_zh_CN.md) | - |
 

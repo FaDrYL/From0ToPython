@@ -1,4 +1,4 @@
-# Classes & Objects
+# 类 & 对象
 [![Project link](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB)](https://github.com/FaDrYL/From0ToPython) 
 
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15)](https://github.com/FaDrYL)
@@ -6,27 +6,27 @@
 
 <br/>
 
-Python is an object-oriented language which everything is an object in Python.
+Python 是个面向对象的语言，在 Python 里所有的数据类型都是对象。
 
-You can make your own objects.
+你可以根据情况写个全新的类，然后创建对象。
 
-[[Code sample]](Classes_Objects_sample.py)
-
-<br/>
-
-## Classes & Objects
-Class is the skeleton of objects. It defines what the object is and how it looks like.
-
-You can create some objects of one class. 
-
-for example: 
-
-Objects `Earth`, `Mars` are created from a class `Planet`.
+[[代码示例]](Classes_Objects_sample.py)
 
 <br/>
 
-### Create A Class
-Using `class` keyword to create a class:
+## 类与对象
+**类** 是对象的骨架（框架），它负责定义这个对象以及它的外观。
+
+你可以从一个类创建多个不同的对象（实例）。
+
+举个例子: 
+
+对象 `Earth`, `Mars` 都可以使用 `Planet` 类创建（各自有不同的参数）。
+
+<br/>
+
+### 创建一个类
+使用关键字 `class` 来创建一个类：
 
 ```Python
 class OneClass:
@@ -35,7 +35,7 @@ class OneClass:
 
 <br/>
 
-Using built-in function `__init__()` to initialize an object and get some arguments from creation.
+使用内置函数 `__init__()` 来初始化一个对象，以及得到一些必要的参数。
 
 ```Python
 class OneClass:
@@ -45,43 +45,43 @@ class OneClass:
 
 <br/>
 
-### Create An Object
-To create an object, we just need to use the class name w/ or w/o arguments.
+### 创建一个对象
+我们只需要使用类的名字以及初始化所需要的参数，即可创建一个对象。
 
 ```Python
-# Create a class without '__init__()'
+# 创建一个没有 __init__() 的类
 class OneClass:
     pass
 
 
-# Class with '__init__()'
+# 有 '__init__()' 的类
 class SecondClass:
     def __init__(self, x):
         pass
 
 
-# Create a object of OneClass.
+# 创建一个 OneClass 的对象。
 oneObject = OneClass()
 
-# Create a object of SecondClass.
-secondObject = SecondClass(10)      # ignore the 'self', and passing a value for 'x'.
+# 创建一个 SecondClass 的对象。
+secondObject = SecondClass(10)      # 忽略第一个参数 'self', 然后传递一个 'x'.
 ```
 
 <br/>
 
-### Variables In Class
-Variables in class have two types:
-- Class Variable
-- Object Variable
+### 类中的变量
+类中的变量有两种类型：
+- 类变量
+- 对象变量（实例变量）
 
-You can directly access it by dot `.`.
+你可以直接使用点 `.` 来访问它们。
 
 <br/>
 
-#### Class Variable
-Class variable is shared value within all objects of this class.
+#### 类变量
+类变量会与当前类的所有对象共享。
 
-If change value of a class variable of an object, it will become object variable of this object
+如果改变了它的值，它会变成这个对象的对象变量。
 
 ```Python
 class Planet:
@@ -99,13 +99,13 @@ print(mars.type)
 
 print("---")
 
-# change type for mars
+# 改变 mars 的 type
 mars.type = "Planet (Mars)"
 print("Earth: " + earth.type)
 print("Mars: " + mars.type)
 ```
 
-output:
+输出:
 
 ```
 Planet
@@ -117,10 +117,10 @@ Mars: Planet (Mars)
 
 <br/>
 
-#### Object Variable
-The object variable is belong to the object itself.
+#### 对象变量
+对象变量只属于当前对象。
 
-Object variables are started with `self` (the first argument of a function) which is a reference to current instance of the class.
+对象变量以 `self`（这个函数的第一个参数） 开头。
 
 ```Python
 class Planet:
@@ -134,7 +134,7 @@ print(earth.name)
 print(mars.name)
 ```
 
-output:
+输出:
 
 ```
 Earth
@@ -143,20 +143,20 @@ Mars
 
 <br/>
 
-### Functions In Class
-Defined functions in the class allow objects of this class to use those functions.
+### 类中的函数
+在类中定义函数，其允许这个类的所有对象使用它。
 
-To define functions, it is same as [before](../Functions_Lambda/Functions_Lambda_en_US.md#creating-functions).
+定义函数的方法与[之前](../Functions_Lambda/Functions_Lambda_en_US.md#creating-functions)（章节：类 & Lambda）相同。
 
-But, arguments of functions in class **must** start with `self`.
+但是，函数的参数**必须有**且**第一个**必须是 `self`（或随意名字，规范为 `self`）。
 
-The first argument is a reference to the current instance (object) of this class which generally is `self`, you can change to other word you want.
+第一个参数是对该类当前对象（实例）的引用，通常是 `self`，您可以更改为任意的其它名字。
 
-At meanwhile, to call those functions we should ignore the argument `self`.
+同时，在使用这个函数的时候应该忽略第一个参数 `self`。
 
 <br/>
 
-To access other functions in the class, you should call with `self.`.
+在类中使用当前类里的函数应该以 `self.` 开头来使用它。
 
 <br/>
 
@@ -170,16 +170,18 @@ class Planet:
         self.count += 1
 
     def get_name(self):
+        # 类中使用
         self.increment_count()
         return "Name of this planet is: " + self.name
 
 
 earth = Planet("Earth")
+# 类外使用
 name_earth = earth.get_name()
 print(name_earth)
 ```
 
-output:
+输出:
 
 ```
 Name of this planet is: Earth
@@ -187,12 +189,12 @@ Name of this planet is: Earth
 
 <br/>
 
-### Make Variables And Functions Private
-Generally, variables and functions can be directly accessed by dot `.` from outside.
+### 让变量与函数私有化
+一般来说，变量和函数可以**直接**使用点 `.` 来从外部访问。
 
-We can use double underscore `__` to make functions and variables private (hide them) which only can be accessed in this class.
+我们能在函数或变量名前加两个下划线 `__` 来使其私有、对外部隐藏它们（不能从外部“直接”访问）。
 
-for example: make `count` and `increment_count()` private:
+例如：使 `count` 和 `increment_count()` 私有化：
 
 ```Python
 class Planet:
@@ -210,18 +212,19 @@ class Planet:
 
 <br/>
 
-### Class Inheritance
-A class can inherit from other class (parent class, base class).
+### 类的继承
+一个类可以继承自其它的类（其 父类、基类）。
 
-This class will be a child class of the parent class.
+这个类就成为了其父类的一个子类。
 
-To do that, add a parentheses `()` with name parent class, after the class name.
+去达成它，我们只需要在当前类名的后面加上括号 `()` 以及父类的名字。
+语法：
 
 ```Python
 class child_class(parent_class):
 ```
 
-for example: "Panda" is one of "Mammal", "Mammal" is a kind of "Animal".
+例如：以下的例子，"Panda" 是 "Mammal" 中的一种，"Mammal" 属于 "Animal"。
 
 ```Python
 class Animal:
@@ -238,10 +241,10 @@ class Panda(Mammal):
 
 <br/>
 
-#### Calling Function From Object.
-Calling a function in an object will search the class of this object first. 
+#### 使用对象中的函数
+当使用一个对象中的函数时，会先寻找当前的类。
 
-If is not be found (not be override in child class), It will find it in parents class.
+如果当前类没有这个函数（没有被重载），它就会去父类进行寻找。
 
 ```Python
 class Animal:
@@ -253,14 +256,14 @@ class Animal:
 
 
 class Mammal(Animal):
-    # Override
+    # 重载
     def get_class_pos(self):
-        # found the function and return.
+        # 找到了对应的函数，运行并返回。
         return 1
 
 
 class Panda(Mammal):
-    # functions not found, go to parent class.
+    # 没有找到函数，去父类寻找
     pass
 
 
@@ -269,7 +272,7 @@ print(a_panda.get_animal_class())
 print(a_panda.get_class_pos())
 ```
 
-output:
+输出:
 
 ```
 Animal
@@ -278,12 +281,12 @@ Animal
 
 <br/>
 
-##### Override A Function
-To override a function, you just need to use a same function name and same arguments.
+##### 函数重载
+重载一个函数，我们只需在当前类定义一个函数，并使用相同于父类函数的函数名和相同的参数。
 
-You can override a function to make the function more specifically for the child.
+你可以使用重载，来使这个函数更加符合当前类的情境。
 
-For example: "Penguin" is a "Bird". "Penguin" cannot fly.
+例如："Penguin" 是个 "Bird"，但是 "Penguin" 不会飞。
 
 ```Python
 class Animal:
@@ -304,10 +307,10 @@ class Penguin(Bird):
 
 <br/>
 
-### Using Classes From Other File
-You need to `import` files or `from <fileName> import` classes to using them.
+### 使用其它py文件中的类
+你需要导入 `import <文件名>` 或 `from <文件名> import <类>` 来使用它们。
 
-Separate above example to two files: *animal.py* and *penguin.py*
+将上面的类分为两个文件：*animal.py* 和 *penguin.py*。
 
 animal.py:
 
@@ -318,25 +321,26 @@ class Animal:
 
 class Bird(Animal):
     def is_flyable(self):
+        # 鸟类会飞
         return True
 ```
 
 penguin.py:
 
 ```Python
-from animal import Bird     # -> From animal.py imports Bird class
+from animal import Bird     # -> 从 animal.py 导入 Bird 类
 
 class Penguin(Bird):
-    # override parent's function.
+    # 重载父类的方法
     def is_flyable(self):
-        # is not flyable
+        # 企鹅不会飞
         return False
 ```
 
 <br/>
 
-### Calling Parent Function In Child
-To call parent function in the child, you can use `super().` with function name.
+### 重载后使用父类的函数
+在子类中使用父类的同一个函数，我们只需在函数名前加 `super().`。
 
 ```Python
 class Animal:
@@ -354,7 +358,7 @@ class Mammal(Animal):
 
 class Panda(Mammal):
     def get_animal_class(self):
-        # super().<function name>
+        # super().<函数名>
         return super().get_animal_class() + " Panda"
 
 
@@ -362,7 +366,7 @@ a_panda = Panda()
 print(a_panda.get_animal_class())
 ```
 
-output:
+输出:
 
 ```
 Animal Panda
@@ -370,13 +374,13 @@ Animal Panda
 
 <br/>
 
-### Built-in Functions
-To override those functions (most frequency to use) to get the result in different way.
+### 特殊的内置函数
+重载这些（常用的）函数来以不同的方式实现它们。
 
-Assume `obj` is the object name:
+假设 `obj` 是这个对象的名字:
 
-| Function name | Using it |
-|:-------------:|:--------:|
+| 函数名 | 使用 |
+|:-----:|:---:|
 | `__len__(self)` | `len(obj)` |
 | `__str__(self)` | `str(obj)` |
 | `__int__(self)` | `int(obj)` |
