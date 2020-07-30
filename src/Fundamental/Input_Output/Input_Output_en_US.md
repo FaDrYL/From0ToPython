@@ -128,11 +128,11 @@ According to the mode, it will append or overwrite.
 
 ```Python
 file = open("hello_world.txt", "w")
-f.write("Hello, world!")        # overwrite
+file.write("Hello, world!")        # overwrite
 file.close()
 
 file = open("hello_world.txt", "r")
-print(f.read())
+print(file.read())
 # Hello, world!
 ```
 
