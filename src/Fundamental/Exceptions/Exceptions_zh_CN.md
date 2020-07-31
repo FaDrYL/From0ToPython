@@ -1,4 +1,4 @@
-# Exceptions
+# 异常
 [![Project link](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB)](https://github.com/FaDrYL/From0ToPython) 
 
 [![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15)](https://github.com/FaDrYL)
@@ -6,23 +6,26 @@
 
 <br/>
 
-Exceptions will be throw when errors occur.
+当有错误发生时，就会抛出异常。
 
-You can throw and handle exceptions to deal with bugs or mistakes.
+如果抛出的异常没有被接住（处理），程序就会停止运行。
+
+你可以根据 bug 或错误进行**抛出**或者**处理**异常。
 
 <br/>
 
-## Throw Exceptions
-Using `raise <errorName>` to throw an exception. (some errorName are listed [below](#built-in-exceptions))
+## 抛出异常
+使用 `raise <errorName>` 语句来将一个异常抛出。（[下面](#built-in-exceptions)列出了一些异常的名字）
 
 ```Python
 def binary_func(x):
     if x != 1 and x != 0:
+        # 抛出值异常（多用于参数的值不符合要求）
         raise ValueError("x can only be 0 or 1.")
     pass
 ```
 
-if passing "2" to this function:
+当这个函数，使用 "2" 进行传参时：
 
 ```Python
 Traceback (most recent call last):
@@ -35,35 +38,36 @@ ValueError: x can only be 0 or 1.
 
 <br/>
 
-## Handle Exceptions
-Using "try-catch" statement to handle exceptions.
+## 处理异常
+使用 "try-catch" 语句进行异常的处理。
 
 ```Python
 try:
-    # try this code block first. if has exception, will jump to "except" part directly.
+    # 会先尝试运行这里的代码块。
+    # 如果发生异常，则会忽略剩下的代码直接跳到 "except" 部分。
     ...
-    # no exception, jump to else.
-except <exceptionName>:
-    # if no <exceptionName>, it will catch all the type of exceptions.
-    # if the exception match exceptionName, this code block will be executed.
+    # 如果没有异常，运行完成后则会跳到 "else" 部分（如果有的话）。
+except <异常名>:
+    # 如果没有 <异常名>, 则会接住所有的异常。
+    # 如果抛出的异常于当前 <异常名> 符合，那么这个代码块将会被执行。
     ...
-    # after that, ignore remaining "except" and jump to "finally".
-except <exceptionName>:
-    # if the exception is not match above and this one is matched, this code block will be executed.
-    # you can add as many "except" as you want.
+    # 执行完后，将忽略剩下所有的 "except" ，然后跳到 "finally" 部分（如果有的话）。
+except <异常名>:
+    # 如果上面的不匹配，将会检查这个。
+    # "except" 部分不限制数量。
     ...
 else:
-    # [Optional] this block will be run if no exception after "try" part.
+    # [可选] 这里的代码会在 "try" 部分没有发生异常的情况下执行。
     ...
 finally:
-    # [Optional] this block will be run after "else" or "except".
-    # even has exception.
+    # [可选] 这里的代码会在最后执行，有异常或无异常都会执行这里。
     ...
 
-# if the exception is not be catched, it will be throw again.
+# 如果抛出的异常没有被接住（处理），它将会被再度抛出。
+# 直到被接住，或者最后程序因异常停止。
 ```
 
-Example:
+例子:
 
 ```Python
 def binary_func(x):
@@ -84,8 +88,8 @@ while True:
 
 <br/>
 
-## Create Customized Exception
-You can create a customized exception by inherit an exception.
+## 创建异常
+你可以创建自定义的异常，只需继承至一个已存在的异常类：
 
 ```Python
 class MyException(Exception):
@@ -99,6 +103,7 @@ class MyException(Exception):
 <br/>
 
 ## Built-in Exceptions
+内置的异常（常用）：
 
 | Name | Description |
 |:----:|:-----------:|
@@ -131,5 +136,5 @@ class MyException(Exception):
 | `PermissionError` | Errors related to the permission is denied |
 | `TimeoutError` | Errors related to a system function timed out at the system level |
 
-[Find more](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
+[点此了解更多内置的异常类](https://docs.python.org/3/library/exceptions.html#bltin-exceptions)
 
