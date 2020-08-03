@@ -159,11 +159,11 @@ output:
 3
 ```
 
-<\n>
+<br/>
 
 *or*
 
-<\n>
+<br/>
 
 Arbitrary keyword arguments (add `**` before the argument)
 
