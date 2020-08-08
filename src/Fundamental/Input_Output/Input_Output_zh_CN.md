@@ -6,7 +6,6 @@
 
 <br/>
 
-This chapter will discuss some basic I/O functions.
 这章会讲一些基础的 I/O 函数
 
 <br/>
