@@ -38,7 +38,7 @@ Python 3.8.2
 
 然后，双击安装即可。
 
-**！ 不要忘记勾选 "Add Python to PATH"。**
+**！ 别忘了勾选 "Add Python to PATH" 或者 "Add Python to environment variables"。**
 
 <br/>
 

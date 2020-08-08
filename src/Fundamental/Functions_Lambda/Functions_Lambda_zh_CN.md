@@ -235,7 +235,7 @@ change_list(a_list)
 print("后: " + str(a_list))
 ```
 
-output:
+输出:
 
 ```Python
 前: [1, 2]

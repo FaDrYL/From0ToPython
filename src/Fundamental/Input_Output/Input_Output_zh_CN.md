@@ -8,6 +8,8 @@
 
 这章会讲一些基础的 I/O 函数
 
+[[代码示例]](Input_Output_sample.py)
+
 <br/>
 
 ## 输出到屏幕

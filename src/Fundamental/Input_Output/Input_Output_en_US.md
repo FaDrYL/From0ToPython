@@ -8,6 +8,8 @@
 
 This chapter will discuss some basic I/O functions.
 
+[[Code sample]](Input_Output_sample.py)
+
 <br/>
 
 ## Output To Screen
