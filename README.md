@@ -89,6 +89,7 @@ $ python
 ### Usages
 | Title | Description | Finished Date |
 |:-----:|:-----------:|:-------------:|
+| [WordRepetitionCount] | To count word repetition in a file | - |
 | [FromPythonToSnake] | Make and play Snake game with Python | - |
 
 
