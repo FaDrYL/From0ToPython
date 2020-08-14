@@ -10,6 +10,8 @@ Exceptions will be throw when errors occur.
 
 You can throw and handle exceptions to deal with bugs or mistakes.
 
+[[Code sample]](Exceptions_sample.py)
+
 <br/>
 
 ## Throw Exceptions
