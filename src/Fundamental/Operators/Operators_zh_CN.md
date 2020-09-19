@@ -1,8 +1,8 @@
 # 运算符
-[![Project link](https://img.shields.io/badge/From%200%20To-Python-blue?style=for-the-badge&logo=Python&logoColor=FFD43B&logoWidth=15&labelColor=566163&color=3776AB)](https://github.com/FaDrYL/From0ToPython) 
+[![Project link](../../../res/badges_project.svg)](https://github.com/FaDrYL/From0ToPython) 
 
-[![Github link](https://img.shields.io/badge/FaDrYL--blue?style=social&logo=Github&logoWidth=15)](https://github.com/FaDrYL)
-[![Website link](https://img.shields.io/badge/FaDr-YL-blue?style=flat&color=009f9f)](https://www.fadryl.com/)
+[![Github link](../../../res/badges_github.svg)](https://github.com/FaDrYL)
+[![Website link](../../../res/badges_website.svg)](https://www.fadryl.com/)
 
 <br/>
 
